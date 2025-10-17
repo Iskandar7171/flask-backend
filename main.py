@@ -5,6 +5,9 @@ app = Flask("__name__")
 @app.route("/")
 def index():
     return "Salom beckend dasturchi!"
+@app.route("/about")
+def home():
+    return "about page"
 
 @app.route("/home")
 def home():
