@@ -6,5 +6,9 @@ app = Flask("__name__")
 def index():
     return "Salom beckend dasturchi!"
 
+@app.route("/home")
+def home():
+    return "home page"
+
 if __name__ == "main":
     app.run(debug=True)
