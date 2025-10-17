@@ -13,5 +13,9 @@ def home():
 def home():
     return "home page"
 
+@app.route("/club")
+def club():
+    return "club page"
+
 if __name__ == "main":
     app.run(debug=True)
