@@ -37,6 +37,10 @@ def meva():
 def shirin():
     return "shirinliklar page"
 
+@app.route("/kompyuterlar")
+def komp():
+    return"kompyuterlar page"
+
 if __name__ == "__main__":
     app.run(debug=True)
 
