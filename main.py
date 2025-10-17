@@ -41,6 +41,14 @@ def shirin():
 def komp():
     return"kompyuterlar page"
 
+@app.route("/kiyimlar")
+def kiyim():
+    return"kiyimlar page"
+
+@app.route("/ichimliklar")
+def ichimlik():
+    return"ichimliklar page"
+
 if __name__ == "__main__":
     app.run(debug=True)
 
