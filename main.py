@@ -25,7 +25,9 @@ def infoo():
 def tel():
     return "telefon page"
 
-
+@app.route("/mexmonxona")
+def guess():
+    return "mexmonxona page"
 
 if __name__ == "__main__":
     app.run(debug=True)
