@@ -29,6 +29,14 @@ def tel():
 def guess():
     return "mexmonxona page"
 
+@app.route("/mevalar")
+def meva():
+    return "mevalar page"
+
+@app.route("/shirinliklar")
+def shirin():
+    return "shirinliklar page"
+
 if __name__ == "__main__":
     app.run(debug=True)
 
