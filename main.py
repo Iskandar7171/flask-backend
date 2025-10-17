@@ -6,20 +6,39 @@ app = Flask("__name__")
 def index():
     return "Salom beckend dasturchi!"
 @app.route("/about")
-def home():
+def aboutt():
     return "about page"
 
 @app.route("/home")
-def home():
+def homee():
     return "home page"
 
 @app.route("/club")
-def club():
+def clubb():
     return "club page"
 
 @app.route("/info")
-def club():
+def infoo():
     return "info page"
 
-if __name__ == "main":
+@app.route("/telefonlar")
+def tel():
+    return "telefon page"
+
+
+
+if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+#/telefonlar
+# /mexmonxona
+# /mevalar
+# /uy-hayvonlari
+# /poliz-ekinlari
+# /shirinliklar
+# /pechenyelar
+# /komputerlar
+# /kiyim-kechaklar
+# /ichimliklar
